@@ -1,3 +1,19 @@
+### Spis treści
+* [assert.h](#assert.h) - Makro asercji.
+* [ctype.h](#ctype.h) - Klasyfikowanie znaków.
+* [errno.h](#errno.h) - Deklaracje kodów błędów.
+* [float.h](#float.h) - Właściwości typów zmiennoprzecinkowych zależne od implementacji.
+* [limits.h](#limits.h) - Właściwości typów całkowitych zależne od implementacji.
+* [locale.h](#locale.h) - Ustawienia międzynarodowe.
+* [setjmp.h](#setjmp.h) - bsługa nielokalnych skoków.
+* [signal.h](#signal.h) - [Obsługa sygnałów.
+* [stdarg.h](#stdarg.h) - Narzędzia dla funkcji ze zmienną liczbą argumentów.
+* [stddef.h](#stddef.h) - Standardowe definicje.
+* [stdio.h](#stdio.h) - Standard Input/Output, czyli standardowe wejście-wyjście.
+* [stdlib.h](#stdlib.h) - Najbardziej podstawowe funkcje.
+* [string.h](#string.h) - Operacje na łańcuchach znaków
+* [time.h](#time.h) - Funkcje obsługi czasu.
+
 ## assert.h 
 #### Makro asercji.
 
@@ -46,7 +62,7 @@ int islower(char c);
 >sprawdza czy znak jest małą literą 
 
 ```cpp
-* int isprint(char c); 
+int isprint(char c); 
 ```
 >sprawdza czy znak jest znakiem drukowalnym (włączając w to spację) 
 
@@ -119,359 +135,359 @@ setlocale()
 ## math.h
 #### Funkcje matematyczne.
 ```cpp
- FP_FAST_FMAF (makro) [C99]
+FP_FAST_FMAF (makro) [C99]
 ```
 
 ```cpp
- FP_FAST_FMAL (makro) [C99]
+FP_FAST_FMAL (makro) [C99]
 ```
 
 ```cpp
- FP_FAST_FMA (makro) [C99]
+FP_FAST_FMA (makro) [C99]
 ```
 
 ```cpp
- FP_ILOGB0 (makro) [C99]
+FP_ILOGB0 (makro) [C99]
 ```
 
 ```cpp
- FP_ILOGBNAN (makro) [C99]
+FP_ILOGBNAN (makro) [C99]
 ```
 
 ```cpp
- FP_INFINITE (makro) [C99]
+FP_INFINITE (makro) [C99]
 ```
 
 ```cpp
- FP_NAN (makro) [C99]
+FP_NAN (makro) [C99]
 ```
 
 ```cpp
- FP_NORMAL (makro) [C99]
+FP_NORMAL (makro) [C99]
 ```
 
 ```cpp
- FP_SUBNORMAL (makro) [C99]
+FP_SUBNORMAL (makro) [C99]
 ```
 
 ```cpp
- FP_ZERO (makro) [C99]
+FP_ZERO (makro) [C99]
 ```
 
 ```cpp
- HUGE_VALF (makro) [C99]
+HUGE_VALF (makro) [C99]
 ```
 
 ```cpp
- HUGE_VALL (makro) [C99]
+HUGE_VALL (makro) [C99]
 ```
 
 ```cpp
- HUGE_VAL (makro)
+HUGE_VAL (makro)
 ```
 
 ```cpp
- INFINITY (makro) [C99]
+INFINITY (makro) [C99]
 ```
 
 ```cpp
- MATH_ERREXCEPT (makro) [C99]
+MATH_ERREXCEPT (makro) [C99]
 ```
 
 ```cpp
- MATH_ERRNO (makro) [C99]
+MATH_ERRNO (makro) [C99]
 ```
 
 ```cpp
- NAN (makro) [C99]
+NAN (makro) [C99]
 ```
 
 ```cpp
- acosh()
+acosh()
 ```
 
 ```cpp
- acos()
+acos()
 ```
 
 ```cpp
- asinh()
+asinh()
 ```
 
 ```cpp
- asin()
+asin()
 ```
 
 ```cpp
- atan2()
+atan2()
 ```
 
 ```cpp
- atanh()
+atanh()
 ```
 
 ```cpp
- atan()
+atan()
 ```
 
 ```cpp
- cbrt() [C99]
+cbrt() [C99]
 ```
 
 ```cpp
- ceil()
+ceil()
 ```
 
 ```cpp
- copysign() [C99]
+copysign() [C99]
 ```
 
 ```cpp
- cosh()
+cosh()
 ```
 
 ```cpp
- cos()
+cos()
 ```
 
 ```cpp
- double_t (typ) [C99]
+double_t (typ) [C99]
 ```
 
 ```cpp
- erfc() [C99]
+erfc() [C99]
 ```
 
 ```cpp
- erf() [C99]
+erf() [C99]
 ```
 
 ```cpp
- exp2() [C99]
+exp2() [C99]
 ```
 
 ```cpp
- expm1() [C99]
+expm1() [C99]
 ```
 
 ```cpp
- exp()
+exp()
 ```
 
 ```cpp
- fabs()
+fabs()
 ```
 
 ```cpp
- fdim() [C99]
+fdim() [C99]
 ```
 
 ```cpp
- flaot_t (typ) [C99]
+flaot_t (typ) [C99]
 ```
 
 ```cpp
- floor()
+floor()
 ```
 
 ```cpp
- fmax() [C99]
+fmax() [C99]
 ```
 
 ```cpp
- fma() [C99]
+fma() [C99]
 ```
 
 ```cpp
- fmin() [C99]
+fmin() [C99]
 ```
 
 ```cpp
- fmod()
+fmod()
 ```
 
 ```cpp
- fpclassify() [C99]
+fpclassify() [C99]
 ```
 
 ```cpp
- frexp()
+frexp()
 ```
 
 ```cpp
- hypot() [C99]
+hypot() [C99]
 ```
 
 ```cpp
- ilogb() [C99]
+ilogb() [C99]
 ```
 
 ```cpp
- isfinite() [C99]
+isfinite() [C99]
 ```
 
 ```cpp
- isgreaterequal() [C99]
+isgreaterequal() [C99]
 ```
 
 ```cpp
- isgreater() [C99]
+isgreater() [C99]
 ```
 
 ```cpp
- isinf() [C99]
+isinf() [C99]
 ```
 
 ```cpp
- islessequal() [C99]
+islessequal() [C99]
 ```
 
 ```cpp
- islessgreater() [C99]
+islessgreater() [C99]
 ```
 
 ```cpp
- isless() [C99]
+isless() [C99]
 ```
 
 ```cpp
- isnan() [C99]
+isnan() [C99]
 ```
 
 ```cpp
- isnormal() [C99]
+isnormal() [C99]
 ```
 
 ```cpp
- isunordered() [C99]
+isunordered() [C99]
 ```
 
 ```cpp
- ldexp()
+ldexp()
 ```
 
 ```cpp
- lgamma() [C99]
+lgamma() [C99]
 ```
 
 ```cpp
- llrint() [C99]
+llrint() [C99]
 ```
 
 ```cpp
- llround() [C99]
+llround() [C99]
 ```
 
 ```cpp
- log10()
+log10()
 ```
 
 ```cpp
- log1p() [C99]
+log1p() [C99]
 ```
 
 ```cpp
- log2() [C99]
+log2() [C99]
 ```
 
 ```cpp
- logb() [C99]
+logb() [C99]
 ```
 
 ```cpp
- log()
+log()
 ```
 
 ```cpp
- lrint() [C99]
+lrint() [C99]
 ```
 
 ```cpp
- lround() [C99]
+lround() [C99]
 ```
 
 ```cpp
- math_errhandling (makro) [C99]
+math_errhandling (makro) [C99]
 ```
 
 ```cpp
- modf()
+modf()
 ```
 
 ```cpp
- nan() [C99]
+nan() [C99]
 ```
 
 ```cpp
- nearbyint() [C99]
+nearbyint() [C99]
 ```
 
 ```cpp
- nextafter() [C99]
+nextafter() [C99]
 ```
 
 ```cpp
- nexttoward() [C99]
+nexttoward() [C99]
 ```
 
 ```cpp
- pow()
+pow()
 ```
 
 ```cpp
- remainder() [C99]
+remainder() [C99]
 ```
 
 ```cpp
- remquo() [C99]
+remquo() [C99]
 ```
 
 ```cpp
- rint() [C99]
+rint() [C99]
 ```
 
 ```cpp
- round() [C99]
+round() [C99]
 ```
 
 ```cpp
- scalbln() [C99]
+scalbln() [C99]
 ```
 
 ```cpp
- scalbn() [C99]
+scalbn() [C99]
 ```
 
 ```cpp
- signbit() [C99]
+signbit() [C99]
 ```
 
 ```cpp
- sinh()
+sinh()
 ```
 
 ```cpp
- sin()
+sin()
 ```
 
 ```cpp
- sqrt()
+sqrt()
 ```
 
 ```cpp
- tanh()
+tanh()
 ```
 
 ```cpp
- tan()
+tan()
 ```
 
 ```cpp
- tgamma() [C99]
+tgamma() [C99]
 ```
 
 ```cpp
- trunc() [C99] 
+trunc() [C99] 
 ```
 
 ## setjmp.h 
@@ -521,286 +537,286 @@ offsetof()
 ## stdio.h 
 #### Standard Input/Output, czyli standardowe wejście-wyjście. 
 ```cpp
- clearerr()
+clearerr()
 ```
 
 ```cpp
- fclose()
+fclose()
 ```
 
 ```cpp
- feof()
+feof()
 ```
 
 ```cpp
- ferror()
+ferror()
 ```
 
 ```cpp
- fflush()
+fflush()
 ```
 
 ```cpp
- fgetc()
+fgetc()
 ```
 
 ```cpp
- fgetpos()
+fgetpos()
 ```
 
 ```cpp
- fgets()
+fgets()
 ```
 
 ```cpp
- fopen()
+fopen()
 ```
 
 ```cpp
- fprintf()
+fprintf()
 ```
 
 ```cpp
- fputc()
+fputc()
 ```
 
 ```cpp
- fputs()
+fputs()
 ```
 
 ```cpp
- fread()
+fread()
 ```
 
 ```cpp
- freopen()
+freopen()
 ```
 
 ```cpp
- fscanf()
+fscanf()
 ```
 
 ```cpp
- fseek()
+fseek()
 ```
 
 ```cpp
- fsetpos()
+fsetpos()
 ```
 
 ```cpp
- ftell()
+ftell()
 ```
 
 ```cpp
- fwrite()
+fwrite()
 ```
 
 ```cpp
- getc()
+getc()
 ```
 
 ```cpp
- getchar()
+getchar()
 ```
 
 ```cpp
- gets()
+gets()
 ```
 
 ```cpp
- perror()
+perror()
 ```
 
 ```cpp
- printf()
+printf()
 ```
 
 ```cpp
- putc()
+putc()
 ```
 
 ```cpp
- putchar()
+putchar()
 ```
 
 ```cpp
- puts()
+puts()
 ```
 
 ```cpp
- remove()
+remove()
 ```
 
 ```cpp
- rename()
+rename()
 ```
 
 ```cpp
- rewind()
+rewind()
 ```
 
 ```cpp
- scanf()
+scanf()
 ```
 
 ```cpp
- setbuf()
+setbuf()
 ```
 
 ```cpp
- setvbuf()
+setvbuf()
 ```
 
 ```cpp
- sprintf()
+sprintf()
 ```
 
 ```cpp
- sscanf()
+sscanf()
 ```
 
 ```cpp
- tmpfile()
+tmpfile()
 ```
 
 ```cpp
- tmpnam()
+tmpnam()
 ```
 
 ```cpp
- ungetc()
+ungetc()
 ```
 
 ```cpp
- vfprintf()
+vfprintf()
 ```
 
 ```cpp
- vprintf()
+vprintf()
 ```
 
 ```cpp
- vsprintf()
+vsprintf()
 ```
 
 ## stdlib.h 
 #### Najbardziej podstawowe funkcje. 
 
 ```cpp
- abort() 
+abort() 
 ```
 
 ```cpp
- abs() 
+abs() 
 ```
 
 ```cpp
- atexit() 
+atexit() 
 ```
 
 ```cpp
- atof() 
+atof() 
 ```
 
 ```cpp
- atoi() 
+atoi() 
 ```
 
 ```cpp
- atol() 
+atol() 
 ```
 
 ```cpp
- bsearch() 
+bsearch() 
 ```
 
 ```cpp
- calloc() 
+calloc() 
 ```
 
 ```cpp
- div() 
+div() 
 ```
 
 ```cpp
- exit() 
+exit() 
 ```
 
 ```cpp
- free() 
+free() 
 ```
 
 ```cpp
- getenv() 
+getenv() 
 ```
 
 ```cpp
- itoa() 
+itoa() 
 ```
 
 ```cpp
- labs() 
+labs() 
 ```
 
 ```cpp
- ldiv() 
+ldiv() 
 ```
 
 ```cpp
- malloc() 
+malloc() 
 ```
 
 ```cpp
- mblen() 
+mblen() 
 ```
 
 ```cpp
- mbstowcs() 
+mbstowcs() 
 ```
 
 ```cpp
- mbtowc() 
+mbtowc() 
 ```
 
 ```cpp
- qsort() 
+qsort() 
 ```
 
 ```cpp
- rand() 
+rand() 
 ```
 
 ```cpp
- realloc() 
+realloc() 
 ```
 
 ```cpp
- srand() 
+srand() 
 ```
 
 ```cpp
- strtod() 
+strtod() 
 ```
 
 ```cpp
- strtol() 
+strtol() 
 ```
 
 ```cpp
- strtoul() 
+strtoul() 
 ```
 
 ```cpp
- system() 
+system() 
 ```
 
 ```cpp
- wctomb() 
+wctomb() 
 ```
 
 ```cpp
- wcstombs() 
+wcstombs() 
 ```
 ## string.h 
 #### Operacje na łańcuchach znaków
@@ -809,129 +825,131 @@ memchr()
 ```
 
 ```cpp
- memcmp()
+memcmp()
 ```
 
 ```cpp
- memcpy()
+memcpy()
 ```
 
 ```cpp
- memmove()
+memmove()
 ```
 
 ```cpp
- memset()
+memset()
 ```
 
 ```cpp
- strcat()
+strcat()
 ```
 
 ```cpp
- strchr()
+strchr()
 ```
 
 ```cpp
- strcmp()
+strcmp()
 ```
 
 ```cpp
- strcoll()
+strcoll()
 ```
 
 ```cpp
- strcpy()
+strcpy()
 ```
 
 ```cpp
- strcspn()
+strcspn()
 ```
 
 ```cpp
- strerror()
+strerror()
 ```
 
 ```cpp
- strlen()
+strlen()
 ```
 
 ```cpp
- strncat()
+strncat()
 ```
 
 ```cpp
- strncmp()
+strncmp()
 ```
 
 ```cpp
- strncpy()
+strncpy()
 ```
 
 ```cpp
- strpbrk()
+strpbrk()
 ```
 
 ```cpp
- strrchr()
+strrchr()
 ```
 
 ```cpp
- strspn()
+strspn()
 ```
 
 ```cpp
- strstr()
+strstr()
 ```
 
 ```cpp
- strtok()
+strtok()
 ```
 
 ```cpp
- strxfrm()
+strxfrm()
 ```
 
 ```cpp
- strdup()
+strdup()
 ```
 
 ## time.h 
 #### Funkcje obsługi czasu.
 ```cpp
- asctime()
+asctime()
 ```
 
 ```cpp
- clock()
+clock()
 ```
 
 ```cpp
- ctime()
+ctime()
 ```
 
 ```cpp
- difftime()
+difftime()
 ```
 
 ```cpp
- gmtime()
+gmtime()
 ```
 
 ```cpp
- localtime()
+localtime()
 ```
 
 ```cpp
- mktime()
+mktime()
 ```
 
 ```cpp
- strftime()
+strftime()
 ```
 
 ```cpp
- time() 
+time() 
 ```
 
-· tm (struktura) 
+```cpp
+tm (struktura)
+```
