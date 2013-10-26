@@ -1,18 +1,18 @@
 ### Spis treści
-* [assert.h](#assert.h) - Makro asercji.
-* [ctype.h](#ctype.h) - Klasyfikowanie znaków.
-* [errno.h](#errno.h) - Deklaracje kodów błędów.
-* [float.h](#float.h) - Właściwości typów zmiennoprzecinkowych zależne od implementacji.
-* [limits.h](#limits.h) - Właściwości typów całkowitych zależne od implementacji.
-* [locale.h](#locale.h) - Ustawienia międzynarodowe.
-* [setjmp.h](#setjmp.h) - bsługa nielokalnych skoków.
-* [signal.h](#signal.h) - [Obsługa sygnałów.
-* [stdarg.h](#stdarg.h) - Narzędzia dla funkcji ze zmienną liczbą argumentów.
-* [stddef.h](#stddef.h) - Standardowe definicje.
-* [stdio.h](#stdio.h) - Standard Input/Output, czyli standardowe wejście-wyjście.
-* [stdlib.h](#stdlib.h) - Najbardziej podstawowe funkcje.
-* [string.h](#string.h) - Operacje na łańcuchach znaków
-* [time.h](#time.h) - Funkcje obsługi czasu.
+* [assert.h](#asserth) - Makro asercji.
+* [ctype.h](#ctypeh) - Klasyfikowanie znaków.
+* [errno.h](#errnoh) - Deklaracje kodów błędów.
+* [float.h](#floath) - Właściwości typów zmiennoprzecinkowych zależne od implementacji.
+* [limits.h](#limitsh) - Właściwości typów całkowitych zależne od implementacji.
+* [locale.h](#localeh) - Ustawienia międzynarodowe.
+* [setjmp.h](#setjmph) - bsługa nielokalnych skoków.
+* [signal.h](#signalh) - [Obsługa sygnałów.
+* [stdarg.h](#stdargh) - Narzędzia dla funkcji ze zmienną liczbą argumentów.
+* [stddef.h](#stddefh) - Standardowe definicje.
+* [stdio.h](#stdioh) - Standard Input/Output, czyli standardowe wejście-wyjście.
+* [stdlib.h](#stdlibh) - Najbardziej podstawowe funkcje.
+* [string.h](#stringh) - Operacje na łańcuchach znaków
+* [time.h](#timeh) - Funkcje obsługi czasu.
 
 ## assert.h 
 #### Makro asercji.
