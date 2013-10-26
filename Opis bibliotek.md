@@ -631,6 +631,7 @@ perror()
 ```cpp
 printf()
 ```
+> 
 
 ```cpp
 putc()
@@ -919,15 +920,15 @@ asctime()
 ```
 
 ```cpp
-clock()
+clock_t clock( void );
 ```
 
 ```cpp
-ctime()
+char* ctime(const time_t *wskczasu);
 ```
 
 ```cpp
-difftime()
+double difftime(time_t czas1, time_t czas2);
 ```
 
 ```cpp
@@ -935,7 +936,7 @@ gmtime()
 ```
 
 ```cpp
-localtime()
+struct tm *localtime(const time_t *timep);
 ```
 
 ```cpp
@@ -943,13 +944,23 @@ mktime()
 ```
 
 ```cpp
-strftime()
+size_t strftime(char *s, size_t max, const char *format, const struct tm *tm);
 ```
 
 ```cpp
-time() 
+time_t time(time_t *wskczasu);
 ```
 
 ```cpp
-tm (struktura)
+struct tm {
+    int     tm_sec;         /* sekundy od pełnej minuty*/
+    int     tm_min;         /* minuty  od pełnej godziny*/
+    int     tm_hour;        /* godzina na 24-godzinnym zegarze*/
+    int     tm_mday;        /* dzień miesiąca */
+    int     tm_mon;         /* miesiąc licząc od zera */
+    int     tm_year;        /* rok - 1900 */
+    int     tm_wday;        /* dzień tygodnia niedziela ma numer 0*/
+    int     tm_yday;        /* dzień roku licząc od zera*/
+    int     tm_isdst;       /* znacznik czasu letniego */
+};
 ```
